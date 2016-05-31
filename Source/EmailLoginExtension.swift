@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import HalcyonInnovationKit
 import HILoginManager
 import SwiftyUserDefaults
 import KeychainSwift
