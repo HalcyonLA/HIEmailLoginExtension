@@ -6,7 +6,7 @@ s.name = "HIEmailLoginExtension"
 s.module_name = "HIEmailLoginExtension"
 s.summary = "Halcyon Innovation login component."
 s.requires_arc = true
-s.version = "1.0.1"
+s.version = "1.0.2"
 s.author = { "Vlad Getman" => "ibrightsider@gmail.com" }
 
 s.license = { :type => "MIT", :file => "LICENSE" }

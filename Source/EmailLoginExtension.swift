@@ -25,7 +25,7 @@ extension EmailLoginExtension: LoginProtocol {
     }
     
     public func hasAuthData() -> Bool {
-        return (Defaults["Email"] != nil && KeychainSwift().get("Password") != nil)
+        return (Defaults["Email"].stringValue.characters.count > 0 && KeychainSwift().get("Password") != nil)
     }
     
     public func authData() -> [String : AnyObject] {
